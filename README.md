@@ -1,14 +1,5 @@
-# Snow Auth Service
-The Official SnowLynx Software Auth Microservice. This service 
-can be used to register and issue tokens for all SnowLynx Software Games
-and other products.
+# Snow Auth Service 
+The Official Snow Auth Microservice.
 
-# Local Dev Server
-
-You first must populate the `.env` file with the appropriate ENV variables. (See `.env.example`).
-
-Then you can run:
-
-```bash
-./serve.sh
-```
+# Password Hashing
+https://gowebexamples.com/password-hashing/

@@ -1,0 +1,1 @@
+./scripts/local-migrate.sh

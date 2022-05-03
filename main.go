@@ -1,11 +1,11 @@
 package main
 
 import (
-	"auth-service/internal/server"
+	cmd "snow-auth-service/cmds"
 )
 
 // main This serves as the entry-point to the application--which simply
 // calls the Start() method on the server package.
 func main() {
-	server.Start()
+	cmd.Execute()
 }

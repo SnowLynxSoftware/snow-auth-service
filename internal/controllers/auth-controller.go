@@ -6,15 +6,15 @@ import (
 	"snow-auth-service/configs"
 )
 
-func HealthController(w http.ResponseWriter, r *http.Request) {
+func AuthControllerRegister(w http.ResponseWriter, r *http.Request) {
 	// Set the return Content-Type as JSON like before
 	w.Header().Set("Content-Type", "application/json")
 
 	// Change the response depending on the method being requested
 	switch r.Method {
-	case "GET":
+	case "POST":
 		w.WriteHeader(http.StatusOK)
-		_, err := w.Write([]byte(fmt.Sprintf(`{"status": "ok", "version": "%v"}`, configs.GetVersion())))
+		_, err := w.Write([]byte(fmt.Sprintf(`{"route": "register", status": "ok", "version": "%v"}`, configs.GetVersion())))
 		if err != nil {
 			panic(err)
 		}
