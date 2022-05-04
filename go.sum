@@ -1,5 +1,5 @@
-github.com/SnowLynxSoftware/go-mysql-data-core v1.1.1 h1:G9ZvpzSSpy4NTKKd9RB7ZJ5w4SZotbLctxMV7wB95Kk=
-github.com/SnowLynxSoftware/go-mysql-data-core v1.1.1/go.mod h1:xh9qj98M7gaEx+kQC1naBcmaF0zO+z0FrkoPJZa4W/A=
+github.com/SnowLynxSoftware/go-mysql-data-core v1.2.0 h1:yE8EQzssO2k8t8tJ4OfyxPVApMHQSE8LLVBw9ljQvcQ=
+github.com/SnowLynxSoftware/go-mysql-data-core v1.2.0/go.mod h1:xh9qj98M7gaEx+kQC1naBcmaF0zO+z0FrkoPJZa4W/A=
 github.com/cpuguy83/go-md2man/v2 v2.0.1/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=
 github.com/go-sql-driver/mysql v1.6.0 h1:BCTh4TKNUYmOmMUcQ3IipzF5prigylS7XXjEkfCHuOE=
 github.com/go-sql-driver/mysql v1.6.0/go.mod h1:DCzpHaOWr8IXmIStZouvnhqoel9Qv2LBy8hT2VhHyBg=

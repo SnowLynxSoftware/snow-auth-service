@@ -9,12 +9,12 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "soul",
-	Short: "Soul is a CLI for the Soul Arenas Game.",
-	Long: `Soul is a CLI for the Soul Arenas Game  
+	Use:   "snow-auth-service",
+	Short: "Snow Auth Service is a CLI for SnowLynxSoftware Authentication Microservice.",
+	Long: `Snow Auth Service is a CLI for SnowLynxSoftware Authentication Microservice  
 built with love by Dylan Legendre!`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("For help, type: soul help")
+		fmt.Println("For help, type: snow-auth-service help")
 	},
 }
 

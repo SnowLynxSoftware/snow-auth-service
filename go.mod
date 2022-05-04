@@ -2,7 +2,7 @@ module snow-auth-service
 
 go 1.18
 
-require github.com/SnowLynxSoftware/go-mysql-data-core v1.1.1
+require github.com/SnowLynxSoftware/go-mysql-data-core v1.2.0
 
 require github.com/spf13/cobra v1.4.0
 

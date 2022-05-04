@@ -11,8 +11,8 @@ func init() {
 
 var serveCmd = &cobra.Command{
 	Use:   "serve",
-	Short: "Run the Soul API Server.",
-	Long:  `This will boot up the API Server that will allow Soul to listen for http requests.`,
+	Short: "Run the Snow Auth API Server.",
+	Long:  `This will boot up the API Server that will allow Snow Auth to listen for http requests.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		server.Start()
 	},

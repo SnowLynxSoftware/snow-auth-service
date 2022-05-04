@@ -12,10 +12,10 @@ func init() {
 
 var versionCmd = &cobra.Command{
 	Use:   "version",
-	Short: "Print the version number of Soul.",
-	Long:  `All software has versions. This is Soul's.`,
+	Short: "Print the version number of Snow Auth Service.",
+	Long:  `All software has versions. This is Snow's.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		version := fmt.Sprintf("Soul v%s", configs.GetVersion())
+		version := fmt.Sprintf("Snow Auth Service v%s", configs.GetVersion())
 		fmt.Println(version)
 	},
 }

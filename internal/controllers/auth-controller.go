@@ -14,7 +14,7 @@ func AuthControllerRegister(w http.ResponseWriter, r *http.Request) {
 	switch r.Method {
 	case "POST":
 		w.WriteHeader(http.StatusOK)
-		_, err := w.Write([]byte(fmt.Sprintf(`{"route": "register", status": "ok", "version": "%v"}`, configs.GetVersion())))
+		_, err := w.Write([]byte(fmt.Sprintf(`{"route": "register", "status": "ok", "version": "%s"}`, configs.GetVersion())))
 		if err != nil {
 			panic(err)
 		}
